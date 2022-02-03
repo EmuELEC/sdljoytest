@@ -182,13 +182,13 @@ int main(int argn, char** argv)
 	char mapping[4096], temp[4096];
 	int s, _s;
 	SDL_bool done = SDL_FALSE, next=SDL_FALSE;
-	Uint32 delay = (3000 / 10) * 10;  /* To round it down to the nearest 10 ms */
+	Uint32 delay = (5000 / 10) * 10;  /* To round it down to the nearest 10 ms */
 	SDL_TimerID my_timer_id = 0;
 
 	printf("\
 ====================================================================================\n\
 * Press the buttons/axes on your controller when indicated\n\
-* To skip a button wait 3 seconds for a timeout\n\
+* To skip a button wait 5 seconds for a timeout\n\
 * To exit cancelling everything, press CTRL+C\n\
 ====================================================================================\n");
 	
